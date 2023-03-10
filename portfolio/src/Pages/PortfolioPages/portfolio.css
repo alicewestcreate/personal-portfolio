@@ -1,0 +1,39 @@
+#project-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*   background-attachment: fixed; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 2px red solid;
+
+}
+
+.project {
+    width: 90vw;
+    flex-grow: 1;
+}
+
+.project:hover {
+    animation-name: expand;
+    animation-duration: 1s;
+}
+
+#one {
+    background-color: red;
+}
+
+#two {
+    background-color: orange;
+}
+
+#three {
+    background-color: yellow;
+}
+
+@keyframes expand{
+    from {flex-grow: 1;}
+    to {flex-grow: 5;}
+    
+  }
