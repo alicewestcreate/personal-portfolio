@@ -11,16 +11,16 @@ const Navbar = () => {
           isPending ? "pending" : isActive ? "active" : ""
         }
       >
-        Home
+        Welcome
       </NavLink>
 
       <NavLink
-        to="/about"
+        to="/portfolio"
         className={({ isActive, isPending }) =>
           isPending ? "pending" : isActive ? "active" : ""
         }
       >
-        About
+        Portfolio
       </NavLink>
     </div>
   );
