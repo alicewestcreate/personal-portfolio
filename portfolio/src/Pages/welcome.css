@@ -1,8 +1,11 @@
 header {
     width: 100vw;
     height:100vh;
+    align-items: end;
+    justify-content: end;
     margin-bottom: 100px;
     background-color:pink;
     border: 2px black solid;
     position:absolute;
+    z-index: 2;
   }

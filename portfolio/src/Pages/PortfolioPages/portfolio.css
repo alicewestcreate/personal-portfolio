@@ -1,39 +1,59 @@
 #project-container {
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /*   background-attachment: fixed; */
     position: fixed;
+
     top: 0;
     left: 0;
     border: 2px red solid;
 
 }
 
+#one {
+    background-image: url(./images/wildswimming.jpg);
+}
+
+#two {
+    background-image: url(./images/taskmanager.jpg);
+}
+
+#three {
+    background-image: url(./images/weather.jpg);
+}
+
 .project {
-    width: 90vw;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
     flex-grow: 1;
+    background-color: grey;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;   
 }
 
 .project:hover {
     animation-name: expand;
     animation-duration: 1s;
+    animation-fill-mode:forwards;
 }
 
-#one {
-    background-color: red;
+.project h2{
+    color: white;
+    font-size: 200%;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.3)
+
+
 }
 
-#two {
-    background-color: orange;
-}
 
-#three {
-    background-color: yellow;
-}
+
 
 @keyframes expand{
-    from {flex-grow: 1;}
-    to {flex-grow: 5;}
-    
+    from {flex-grow: 1; background-color: grey; font-size: 100%;} 
+    to {flex-grow: 4; background-color: white; font-size:200%}
   }
+
+
+
+

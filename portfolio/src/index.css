@@ -1,9 +1,29 @@
+*{
+  padding:0;
+  margin:0;
+
+}
+body * { 
+  display: flex; 
+  flex-direction: column; 
+
+} 
+
+a {
+  text-decoration: none; /* no underline */
+}
+
+
 body {
-  width:120vw;
+  width:100vw;
   height:200vh;
 /*   display: flex;
   flex-direction: column; */
   align-items:center;
   background-color: grey;
   border: 2px red solid;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Tilt Warp', cursive;
 }
