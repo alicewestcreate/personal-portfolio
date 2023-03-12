@@ -1,8 +1,6 @@
 import React, {useEffect} from 'react';
 
-
-
-const Section = (props) => {
+const Project = (props) => {
 
     useEffect(() => { props.setPortfolioNav(true)
         return () => {console.log(props.displayPortfolioNav); props.setPortfolioNav(false)}
@@ -16,4 +14,4 @@ const Section = (props) => {
         </div>
     );
 }
-export default Section;
+export default Project;

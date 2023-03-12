@@ -3,10 +3,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { useState} from "react"
 import PortfolioNav from './PortfolioNav';
-import Section from './Section';
-import Section2 from './Section2';
+import Project from './Project';
 
 const Portfolio = () => {
+
+    // console.log(project);
 
     // displayPortfolio is initially set to false.
     // return:
@@ -18,19 +19,15 @@ const Portfolio = () => {
     // Then return an annoymous function that calls setPortfolioNav() with the value of false. 
     // NOT SURE ON THIS Line : {!displayPortfolioNav && (<PortfolioNav/>)} 
 
-
-
     const [displayPortfolioNav, setPortfolioNav] = useState(false);
 
 
     return (
         <div>
-           
-           {!displayPortfolioNav && (<PortfolioNav/>)}
 
+           {!displayPortfolioNav && (<PortfolioNav/>)}
             <Routes>
-                <Route path="section" element={<Section setPortfolioNav={setPortfolioNav} displayPortfolioNav/>}/>
-                <Route path="section2" element={<Section2/>}/>
+                <Route path="project" element={<Project setPortfolioNav={setPortfolioNav} displayPortfolioNav/>}/>
             </Routes>
         </div>
     );

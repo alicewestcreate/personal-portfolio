@@ -1,27 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import InternalLink from "./InternalLink";
 
 
 const Navbar = () => {
   return (
     <div>
-      <NavLink
-        to="/"
-        className={({ isActive, isPending }) =>
-          isPending ? "pending" : isActive ? "active" : ""
-        }
-      >
-        Welcome
-      </NavLink>
-
-      <NavLink
-        to="/portfolio"
-        className={({ isActive, isPending }) =>
-          isPending ? "pending" : isActive ? "active" : ""
-        }
-      >
-        Portfolio
-      </NavLink>
+      <InternalLink to={"/"} text={"Welcome"}/>
+      <InternalLink to={"/portfolio"} text={"Portfolio"}/>
     </div>
   );
 };
