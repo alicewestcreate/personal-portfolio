@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Header = () => {
+
+const Header = ({image}) => {
     return (
-        <div>
-            <h3>This is a header</h3>
+        <div id="hero" style={{backgroundImage:`url${image}`}}>
+            <h3>{image}</h3>
         </div>
     );
 }

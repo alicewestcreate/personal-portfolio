@@ -25,10 +25,8 @@ const Portfolio = () => {
 
     const data = test;
     const internalRoute = data.map((project)=> {
-        return <Route path={project.path} element={<Project setPortfolioNav={setPortfolioNav} displayPortfolioNav/>}/>
+        return <Route path={project.path} element={<Project setPortfolioNav={setPortfolioNav} displayPortfolioNav={displayPortfolioNav} project={project}/>}/>
     })
-
-
 
 
     return (

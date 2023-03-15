@@ -58,7 +58,6 @@
 
 
 .project h2{
-    color: #333;
     font-size: 150%;
     /* text-shadow: 3px 3px rgba(0, 0, 0, 0.3) */
 
@@ -71,3 +70,19 @@
 
 
 
+.project-main {
+    padding: 3rem 13rem;
+    border: 1px black solid;
+}
+
+.project-main h1 {
+    font-size: 300%;
+    padding-bottom:2rem ;
+}
+
+
+.demo {
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    background-color: blue;
+}

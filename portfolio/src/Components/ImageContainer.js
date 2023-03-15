@@ -1,9 +1,9 @@
 import React from 'react';
 
-const ImageContainer = () => {
+const ImageContainer = ({content}) => {
+    console.log("images",content);
     return (
-        <div>
-            <h3>Image container</h3>
+        <div className={content}>
         </div>
     );
 }

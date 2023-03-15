@@ -2,23 +2,34 @@ import React, {useEffect} from 'react';
 import Header from "../Components/Header"
 import Button from "../Components/Button";
 import ImageContainer from '../Components/ImageContainer';
+import Paragraph from '../Components/Paragraph';
+import Title from '../Components/Title';
+import SkillContainer from '../Components/SkillContainer';
 
 
-const Project = (props) => {
-
-    useEffect(() => { props.setPortfolioNav(true)
-        return () => {console.log(props.displayPortfolioNav); props.setPortfolioNav(false)}
+const Project = ({setPortfolioNav, displayPortfolioNav, project}) => {
+    console.log("!!!",project);
+    useEffect(() => {setPortfolioNav(true)
+        return () => {console.log(displayPortfolioNav); setPortfolioNav(false)}
          },[])
     
-
-
     return (
         <div>
-            <h1>This is a a new section section</h1>
-            <Header></Header>
-            <ImageContainer></ImageContainer>
+            {/* <h1>This is a a new section section</h1> */}
+            <Header image={project.backgroundImage}></Header>
 
-            <Button></Button>
+            <section className="project-main">
+            <Title title={project.title}></Title>
+            <Paragraph content={project.blurb}></Paragraph>
+            <ImageContainer content={"demo"}></ImageContainer>
+            <Button classN={"project-buttons"} links={project.links} text={"Deployed Site"}></Button>
+            <Button classN={"project-buttons"}  links={project.links} text={"Git Repo"}></Button>
+
+            <SkillContainer skills={project.skills}></SkillContainer>
+            <Paragraph cotent={project.summary}></Paragraph>
+   
+
+            </section>
 
         </div>
     );

@@ -23,9 +23,7 @@ const PortfolioNav = () => {
 
   const data = test;
   const NavLinkContainer = data.map((project) => {
-
-
-    console.log(project.image);
+    // console.log(project.image);
     return <section className="project" style={{backgroundImage: `url(${project.backgroundImage})`}}><NavLink to={project.path} className={({ isActive, isPending }) =>
     isPending ? "pending" : isActive ? "active" : ""}
     ><h2>{" "}{project.title}{" "}</h2></NavLink></section>
@@ -33,7 +31,6 @@ const PortfolioNav = () => {
   }) 
   return (
     <div id="project-container">
-      {/* <h1>Portfolio Nav</h1> */}
       {NavLinkContainer}
     </div>
   );
