@@ -1,9 +1,9 @@
-/* *{
+*{
   padding:0;
   margin:0;
 
 }
-body * { 
+#root * { 
   display: flex; 
   flex-direction: column; 
 
@@ -11,3 +11,17 @@ body * {
 
 a {
   text-decoration: none; /* no underline */
+}
+
+
+#root {
+  width:100vw;
+  height:150vh;
+  align-items:center;
+  /* background-color: grey; */
+  /* border: 2px red solid; */
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Tilt Warp', cursive;
+}

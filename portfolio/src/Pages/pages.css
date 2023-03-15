@@ -1,0 +1,73 @@
+#welcome {
+    background-color: pink;
+    height: 100vh;
+}
+
+#welcome .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vh;
+    /* border: green solid 1px; */
+  }
+
+#welcome .imgcontainer {
+    width: 40vw;
+    border-radius: 50%;
+    overflow: hidden;
+    /* border: blue solid 5px; */
+
+  }
+
+#welcome .textcontainer {
+    margin-top: 40px;
+    font-size: 150%;
+
+    /* border: blue solid 30px; */
+
+}
+
+
+#project-container {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* border: 2px red solid; */
+
+}
+
+.project {
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    flex-grow: 1;
+    border: black solid 1px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;   
+}
+
+.project:hover {
+    animation-name: expand;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+}
+
+
+.project h2{
+    color: #333;
+    font-size: 150%;
+    /* text-shadow: 3px 3px rgba(0, 0, 0, 0.3) */
+
+
+}
+@keyframes expand{
+    from {flex-grow: 1; background-color: grey; font-size: 100%;} 
+    to {flex-grow: 3; background-color: white; font-size:200%}
+  }
+
+
+

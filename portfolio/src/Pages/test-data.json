@@ -1,0 +1,38 @@
+[
+    {
+        "path": "pool-position",
+        "title": "Pool Position",
+        "backgroundImage": "./images/wildswimming.jpg",
+        "blurb": " A little something about the project"
+    },
+    {
+        "path": "task-manager",
+        "title": "Task Manager",
+        "backgroundImage": "./images/taskmanager.jpg",
+        "blurb": " A little something about the project"
+    },
+    {
+        "path": "weather-app",
+        "title": "Weather App",
+        "backgroundImage": "./images/weather.jpg",
+        "blurb": " A little something about the project"
+    },
+    {
+        "path": "book-store",
+        "title": "Book Store",
+        "backgroundImage": "./images/wildswimming.jpg",
+        "blurb": " A little something about the project"
+    },
+    {
+        "path": "planner",
+        "title": "Daily Planner",
+        "backgroundImage": "./images/taskmanager.jpg",
+        "blurb": " A little something about the project"
+    },
+    {
+        "path": "team-profile",
+        "title": "Team Profile",
+        "backgroundImage": "./images/weather.jpg",
+        "blurb": " A little something about the project"
+    }
+]

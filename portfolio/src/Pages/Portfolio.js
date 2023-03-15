@@ -3,7 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { useState} from "react"
 import PortfolioNav from './PortfolioNav';
+import "./pages.css"
 import Project from './Project';
+import test from "./test-data.json"
 
 const Portfolio = () => {
 
@@ -21,13 +23,23 @@ const Portfolio = () => {
 
     const [displayPortfolioNav, setPortfolioNav] = useState(false);
 
+    const data = test;
+    const internalRoute = data.map((project)=> {
+        return <Route path={project.path} element={<Project setPortfolioNav={setPortfolioNav} displayPortfolioNav/>}/>
+    })
+
+
+
 
     return (
         <div>
 
            {!displayPortfolioNav && (<PortfolioNav/>)}
             <Routes>
-                <Route path="project" element={<Project setPortfolioNav={setPortfolioNav} displayPortfolioNav/>}/>
+                {internalRoute}
+                {/* <Route path="pool-position" element={<Project setPortfolioNav={setPortfolioNav} displayPortfolioNav/>}/>
+                <Route path="task-manager" element={<Project setPortfolioNav={setPortfolioNav} displayPortfolioNav/>}/>
+                <Route path="weather-app" element={<Project setPortfolioNav={setPortfolioNav} displayPortfolioNav/>}/> */}
             </Routes>
         </div>
     );

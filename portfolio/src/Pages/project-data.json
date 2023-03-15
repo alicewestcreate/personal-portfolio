@@ -1,16 +1,19 @@
 {
     "projectOne" : {
+    "path": "pool-position",
     "title":"Pool Position",
     "image":"./images/wildswimming.jpg",
     "blurb":" A little something about the project"
 },
 
     "projectTwo" :{
+        "path": "task-manager",
         "title":"Task Manager",
         "image":"./images/taskmanager.jpg",
         "blurb":" A little something about the project"
 },
     "projectThree" :{
+        "path": "weather-app",
         "title":"Weather App",
         "image":"./images/weather.jpg",
         "blurb":" A little something about the project"
