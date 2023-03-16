@@ -3,6 +3,8 @@ import { useState, useEffect} from "react";
 import { BrowserRouter as Router, Routes, Route, createRoutesFromChildren } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import test from "./test-data.json";
+import "./images/wildswimming.jpg"
+
 
 import "./pages.css"
 import wild from "./images/wildswimming.jpg"
@@ -42,15 +44,16 @@ const PortfolioNav = (props) => {
 
       const promises = imagePaths2.map(eachPath => import(`${eachPath}`))
       console.log("3. Promises...", promises);
-      const imageImports = await Promise.all(promises).then((values) => {
-        console.log(values);
-      })
-      // console.log("4. imageImports....",imageImports);
-      // const imageUrls = imageImports.map(image => image.default)
-      // console.log("5. URL >>>>> ",imageUrls);
+      const imageImports = await Promise.all(promises)
+      console.log("4. imageImports....",imageImports);
+      const imageUrls = imageImports.map(image => image.default)
+      console.log("5. URL >>>>> ",imageUrls);
+      setImages(imageUrls)
     }
     loadImages()
-  },[imagePaths])
+  },[])
+
+  console.log(" IMAGE",images[1]);
 
 
 
@@ -134,9 +137,9 @@ const PortfolioNav = (props) => {
   // Append that NavLink component to a NavLinkContainer 
 
 
-  const NavLinkContainer = data.map((project) => {
+  const NavLinkContainer = data.map((project, index) => {
     // console.log(project.image);
-    return <section className="project" style={{backgroundImage: `url(${project.backgroundImage})`}}><NavLink to={project.path} className={({ isActive, isPending }) =>
+    return <section className="project" style={{backgroundImage: `url(${images[index]})`}}><NavLink to={project.path} className={({ isActive, isPending }) =>
     isPending ? "pending" : isActive ? "active" : ""}
     ><h2>{" "}{project.title}{" "}</h2></NavLink></section>
 
@@ -153,9 +156,9 @@ const PortfolioNav = (props) => {
 
 
       {NavLinkContainer}
-      {images.map((imageUrl, index) => (
+      {/* {images.map((imageUrl, index) => (
         <img key={index} src={imageUrl} alt={`Image ${index}`}/>
-        ))}
+        ))} */}
 
     </div>
   );

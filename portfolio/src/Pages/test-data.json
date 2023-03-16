@@ -2,7 +2,7 @@
     {
         "path": "pool-position",
         "title": "Pool Position",
-        "backgroundImage": ".//images/wildswimming.jpg",
+        "backgroundImage": "./images/wildswimming.jpg",
         "blurb": " A little something about the project",
         "links": {
             "deployed": "",
@@ -19,7 +19,7 @@
     {
         "path": "task-manager",
         "title": "Task Manager",
-        "backgroundImage": ".//images/taskmanager.jpg",
+        "backgroundImage": "./images/taskmanager.jpg",
         "blurb": " A little something about the project",
         "skills": [
             "Javascript",
@@ -36,7 +36,7 @@
     {
         "path": "weather-app",
         "title": "Weather App",
-        "backgroundImage": ".//images/weather.jpg",
+        "backgroundImage": "./images/weather.jpg",
         "blurb": " A little something about the project",
         "skills": [
             "Javascript",
@@ -52,7 +52,7 @@
     {
         "path": "book-store",
         "title": "Book Store",
-        "backgroundImage": ".//images/wildswimming.jpg",
+        "backgroundImage": "./images/wildswimming.jpg",
         "blurb": " A little something about the project",
         "skills": [
             "Javascript",
@@ -68,7 +68,7 @@
     {
         "path": "planner",
         "title": "Daily Planner",
-        "backgroundImage": ".//images/taskmanager.jpg",
+        "backgroundImage": "./images/taskmanager.jpg",
         "blurb": " A little something about the project",
         "skills": [
             "Javascript",
@@ -85,7 +85,7 @@
     {
         "path": "team-profile",
         "title": "Team Profile",
-        "backgroundImage": ".//images/weather.jpg",
+        "backgroundImage": "./images/weather.jpg",
         "blurb": " A little something about the project",
         "skills": [
             "Javascript",
