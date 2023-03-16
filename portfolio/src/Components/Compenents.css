@@ -20,11 +20,15 @@ nav, a i {
 
 
 
-#hero {
+.hero {
   align-items: center;
   justify-content: center;
   height: 35vh;
-  border: 1px black solid;
+  /* border: 1px black solid; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;   
 }
 
 

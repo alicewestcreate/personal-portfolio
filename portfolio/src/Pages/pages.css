@@ -43,7 +43,7 @@
     justify-content: center;
     width: 100vw;
     flex-grow: 1;
-    border: black solid 1px;
+    /* border: black solid 1px; */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
