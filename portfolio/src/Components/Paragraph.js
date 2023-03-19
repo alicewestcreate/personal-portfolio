@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Paragraph = ({content}) => {
+const Paragraph = ({classN, content}) => {
     return (
-            <p className='test'> {content}</p>
+            <p className={classN}> {content}</p>
 
     );
 }

@@ -1,13 +1,23 @@
+:root {
+  --dark: #383230;
+  --white: #f7f8f8;
+  --light: #BFAEA4;
+  --neutral: #CF8E55;
+  --accent: #854621;
+}
+
+
 *{
   padding:0;
   margin:0;
+  overflow: auto;
 
 }
 div * { 
   display: flex; 
   flex-direction: column; 
-
 } 
+
 
 a {
   text-decoration: none; /* no underline */
@@ -17,15 +27,19 @@ a {
 #root {
   width:100vw;
   align-items:center;
-  background-color: f5f5f5;
+  background-color: var(--white);
   /* border: 2px red solid; */
 }
 
 h1, h2, h3, h4, h5, p {
   font-family: 'Montserrat', sans-serif;
-  color: #333;
+  color: var(--dark)
 }
 
+textarea, form {
+  font-family: 'Montserrat', sans-serif;
+
+}
 
 p {
   line-height:175%;
