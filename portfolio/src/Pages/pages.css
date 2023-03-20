@@ -185,7 +185,7 @@ input:focus, textarea:focus {
     width: 80vw;
 }
 
-.socials > i::before {
+.socials > a > i::before {
     display:flex;
     align-items: center;
     justify-content: center;

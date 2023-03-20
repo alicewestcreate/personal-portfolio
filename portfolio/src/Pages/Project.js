@@ -5,6 +5,8 @@ import ImageContainer from '../Components/ImageContainer';
 import Paragraph from '../Components/Paragraph';
 import Title from '../Components/Title';
 import SkillContainer from '../Components/SkillContainer';
+import poolposition from './/images/poolposition.gif';
+
 
 
 const Project = ({setPortfolioNav, displayPortfolioNav, project}) => {
@@ -24,7 +26,7 @@ const Project = ({setPortfolioNav, displayPortfolioNav, project}) => {
             <section className="project-main">
             <Title title={project.title}></Title>
             <Paragraph content={project.blurb}></Paragraph>
-            <ImageContainer content={"demo"}></ImageContainer>
+            <ImageContainer content={"demo"} image={poolposition}></ImageContainer>
             <SkillContainer skills={project.skills}></SkillContainer>
             <div class="buttonContainer">
             <a href={project.links.deployed}target={'blank'}><Button classN={"project-buttons"} links={project.links} text={"Deployed Site"}></Button></a>

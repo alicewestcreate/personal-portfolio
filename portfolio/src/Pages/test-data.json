@@ -3,6 +3,7 @@
         "path": "pool-position",
         "title": "Pool Position",
         "backgroundImage": "wildswimming.jpg",
+        "demo": "poolposition.gif",
         "blurb": " A little something about the project",
         "links": {
             "deployed": "https://codri5.github.io/pool-position/",

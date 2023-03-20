@@ -6,7 +6,7 @@ const SkillContainer = ({ skills }) => {
     return <SkillKey text={skill}></SkillKey>;
   });
 
-  return <section className={"skillContainer"}>{listOfSkills}</section>;
+  return <section className={"skillContainer" } color={"blue"}>{listOfSkills}</section>;
 };
 
 export default SkillContainer;
