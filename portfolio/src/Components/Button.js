@@ -1,7 +1,6 @@
 import React from 'react';
 
-const Button = ({classN, links, text}) => {
-    console.log(links);
+const Button = ({classN, text}) => {
     return (
         <button className={classN}>
             {text}

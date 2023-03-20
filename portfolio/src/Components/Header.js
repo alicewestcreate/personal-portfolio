@@ -2,19 +2,16 @@ import React from 'react';
 import {useEffect, useState} from 'react';
 
 const Header = (props) => {
-    console.log("props", props.image);
 
     const [image, setImage] = useState(null);
     useEffect(() => {
         async function loadImage() {
              const image = await import(`../Pages/images/${props.image}`)
-            console.log("LOG", image);
             setImage(image.default)
         }
         loadImage()
     },[])
-
-
+    
     return (
         <div className="hero" style={{backgroundImage:`url(${image})`}}>
         </div>

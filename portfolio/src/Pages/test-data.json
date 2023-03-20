@@ -18,26 +18,10 @@
 
     },
     {
-        "path": "task-manager",
-        "title": "Task Manager",
-        "backgroundImage": "taskmanager.jpg",
-        "blurb": " A little something about the project",
-        "skills": [
-            "Javascript",
-            "API",
-            "Local Storage"
-        ],
-        "links": {
-            "deployed": "",
-            "repo": ""
-        }, 
-        "summary": "The website appears to be a team profile generator built using Node.js and the Inquirer.js library. The purpose of the tool is to help generate profiles for team members, including information such as their name, role, ID, email address, and GitHub username. The main page of the website includes a form where users can input this information for each team member, as well as select their role from a dropdown menu. Once all the necessary information has been entered, users can click a button to generate a HTML file with the team's profiles. From a technical standpoint, the website appears to be well-organized and cleanly structured. The code is clearly commented and easy to follow, and it's clear that the developer has taken care to optimize the application's functionality and performance. Additionally, the Inquirer.js library is a popular and well-regarded tool for creating command-line interfaces, and it appears to be well-integrated with the rest of the application. Overall, the team profile generator appears to be a useful and well-executed tool for creating team profiles quickly and easily. As a web developer, I would recommend it to anyone looking for a simple and effective solution for generating profiles for their team members."
-
-    },
-    {
         "path": "weather-app",
         "title": "Weather App",
         "backgroundImage": "weather.jpg",
+        "demo": "WeatherDashboard.gif",
         "blurb": " A little something about the project",
         "skills": [
             "Javascript",
@@ -51,25 +35,10 @@
         "summary": "The website appears to be a team profile generator built using Node.js and the Inquirer.js library. The purpose of the tool is to help generate profiles for team members, including information such as their name, role, ID, email address, and GitHub username. The main page of the website includes a form where users can input this information for each team member, as well as select their role from a dropdown menu. Once all the necessary information has been entered, users can click a button to generate a HTML file with the team's profiles. From a technical standpoint, the website appears to be well-organized and cleanly structured. The code is clearly commented and easy to follow, and it's clear that the developer has taken care to optimize the application's functionality and performance. Additionally, the Inquirer.js library is a popular and well-regarded tool for creating command-line interfaces, and it appears to be well-integrated with the rest of the application. Overall, the team profile generator appears to be a useful and well-executed tool for creating team profiles quickly and easily. As a web developer, I would recommend it to anyone looking for a simple and effective solution for generating profiles for their team members."
     },
     {
-        "path": "book-store",
-        "title": "Book Store",
-        "backgroundImage": "wildswimming.jpg",
-        "blurb": " A little something about the project",
-        "skills": [
-            "Javascript",
-            "API",
-            "Local Storage"
-        ],
-        "links": {
-            "deployed": "",
-            "repo": ""
-        },
-        "summary": "The website appears to be a team profile generator built using Node.js and the Inquirer.js library. The purpose of the tool is to help generate profiles for team members, including information such as their name, role, ID, email address, and GitHub username. The main page of the website includes a form where users can input this information for each team member, as well as select their role from a dropdown menu. Once all the necessary information has been entered, users can click a button to generate a HTML file with the team's profiles. From a technical standpoint, the website appears to be well-organized and cleanly structured. The code is clearly commented and easy to follow, and it's clear that the developer has taken care to optimize the application's functionality and performance. Additionally, the Inquirer.js library is a popular and well-regarded tool for creating command-line interfaces, and it appears to be well-integrated with the rest of the application. Overall, the team profile generator appears to be a useful and well-executed tool for creating team profiles quickly and easily. As a web developer, I would recommend it to anyone looking for a simple and effective solution for generating profiles for their team members."
-    },
-    {
         "path": "planner",
         "title": "Daily Planner",
-        "backgroundImage": "taskmanager.jpg",
+        "backgroundImage": "dayplanner.jpg",
+        "demo": "WorkDayScheduler.gif",
         "blurb": " A little something about the project",
         "skills": [
             "Javascript",
@@ -86,7 +55,8 @@
     {
         "path": "team-profile",
         "title": "Team Profile",
-        "backgroundImage": "weather.jpg",
+        "backgroundImage": "teamgenerator.jpg",
+        "demo": "TeamGenerator.png",
         "blurb": " A little something about the project",
         "skills": [
             "Javascript",
@@ -98,5 +68,40 @@
             "repo": "https://github.com/alicewestcreate/team-profile-generator.git"
         },
         "summary": "The website appears to be a team profile generator built using Node.js and the Inquirer.js library. The purpose of the tool is to help generate profiles for team members, including information such as their name, role, ID, email address, and GitHub username. The main page of the website includes a form where users can input this information for each team member, as well as select their role from a dropdown menu. Once all the necessary information has been entered, users can click a button to generate a HTML file with the team's profiles. From a technical standpoint, the website appears to be well-organized and cleanly structured. The code is clearly commented and easy to follow, and it's clear that the developer has taken care to optimize the application's functionality and performance. Additionally, the Inquirer.js library is a popular and well-regarded tool for creating command-line interfaces, and it appears to be well-integrated with the rest of the application. Overall, the team profile generator appears to be a useful and well-executed tool for creating team profiles quickly and easily. As a web developer, I would recommend it to anyone looking for a simple and effective solution for generating profiles for their team members."
+    },
+    {
+        "path": "book-store",
+        "title": "Book Store",
+        "backgroundImage": "bookstore.jpg",
+        "demo": "poolposition.gif",
+        "blurb": " A little something about the project",
+        "skills": [
+            "Javascript",
+            "API",
+            "Local Storage"
+        ],
+        "links": {
+            "deployed": "",
+            "repo": ""
+        },
+        "summary": "The website appears to be a team profile generator built using Node.js and the Inquirer.js library. The purpose of the tool is to help generate profiles for team members, including information such as their name, role, ID, email address, and GitHub username. The main page of the website includes a form where users can input this information for each team member, as well as select their role from a dropdown menu. Once all the necessary information has been entered, users can click a button to generate a HTML file with the team's profiles. From a technical standpoint, the website appears to be well-organized and cleanly structured. The code is clearly commented and easy to follow, and it's clear that the developer has taken care to optimize the application's functionality and performance. Additionally, the Inquirer.js library is a popular and well-regarded tool for creating command-line interfaces, and it appears to be well-integrated with the rest of the application. Overall, the team profile generator appears to be a useful and well-executed tool for creating team profiles quickly and easily. As a web developer, I would recommend it to anyone looking for a simple and effective solution for generating profiles for their team members."
+    },
+    {
+        "path": "task-manager",
+        "title": "Task Manager",
+        "backgroundImage": "tasks.jpg",
+        "demo": "poolposition.gif",
+        "blurb": " A little something about the project",
+        "skills": [
+            "Javascript",
+            "API",
+            "Local Storage"
+        ],
+        "links": {
+            "deployed": "",
+            "repo": ""
+        }, 
+        "summary": "The website appears to be a team profile generator built using Node.js and the Inquirer.js library. The purpose of the tool is to help generate profiles for team members, including information such as their name, role, ID, email address, and GitHub username. The main page of the website includes a form where users can input this information for each team member, as well as select their role from a dropdown menu. Once all the necessary information has been entered, users can click a button to generate a HTML file with the team's profiles. From a technical standpoint, the website appears to be well-organized and cleanly structured. The code is clearly commented and easy to follow, and it's clear that the developer has taken care to optimize the application's functionality and performance. Additionally, the Inquirer.js library is a popular and well-regarded tool for creating command-line interfaces, and it appears to be well-integrated with the rest of the application. Overall, the team profile generator appears to be a useful and well-executed tool for creating team profiles quickly and easily. As a web developer, I would recommend it to anyone looking for a simple and effective solution for generating profiles for their team members."
+
     }
 ]
