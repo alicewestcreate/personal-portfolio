@@ -1,0 +1,104 @@
+[
+    {
+        "path": "pool-position",
+        "title": "Pool Position",
+        "backgroundImage": "wildswimming.jpg",
+        "demo": "poolposition.gif",
+        "blurb": " A little something about the project",
+        "links": {
+            "deployed": "https://codri5.github.io/pool-position/",
+            "repo": "https://github.com/codri5/pool-position.git"
+        },
+        "skills": [
+            "Javascript",
+            "API",
+            "Local Storage"
+        ],
+        "summary": "Welcome to pool position, The site that connects you to wild swimming spots in Wales. It’s time to scrap the hand drawn maps, and forget the whispers you’ve heard of mysterious far away lands. Pool position, positions you, at your favourite wild swimming spot. Just type the name of the location into the search bar, and our places library and google directions api will direct you straight to the spot.  Or if you looking for a new adventure, just hit swim, at the top of the page to reveal all swimming spots. To make sure you adventure gets off on the right foot, weve even included the weather forecast to help you secure the sunshine. And for those rainy days, just hit the like button to keep them safe for when it’s time."
+    },
+    {
+        "path": "weather-app",
+        "title": "Weather App",
+        "backgroundImage": "weather.jpg",
+        "demo": "WeatherDashboard.gif",
+        "blurb": "Weather dashboard application that allows users to search for and view weather information for different locations",
+        "skills": [
+            "Javascript",
+            "API",
+            "Local Storage"
+        ],
+        "links": {
+            "deployed": "https://alicewestcreate.github.io/weather-dashboard/",
+            "repo": "https://github.com/alicewestcreate/weather-dashboard.git"
+        },
+        "summary": "Weather dashboard application that allows users to search for and view weather information for different locations. The homepage features a search bar where users can enter the name of a city or zip code to retrieve weather data. Upon searching, the page displays the current weather conditions for the location, including temperature, humidity, wind speed, and a five-day forecast. " },
+    {
+        "path": "planner",
+        "title": "Daily Planner",
+        "backgroundImage": "dayplanner.jpg",
+        "demo": "WorkDayScheduler.gif",
+        "blurb": " A simple calendar application that utilizes a third-party API",
+        "skills": [
+            "Javascript",
+            "Local Storage",
+            "Mode"
+        ],
+        "links": {
+            "deployed": "https://alicewestcreate.github.io/simple-calendar-third-party-API/",
+            "repo": "https://github.com/alicewestcreate/simple-calendar-third-party-API.git"
+        },
+        "summary": "A simple calendar application that utilizes a third-party API (Application Programming Interface) to display information. The homepage features a calendar with the current date highlighted and allows users to navigate between months. Clicking on a specific date opens a pop-up window that displays events for that day, which are likely obtained from the third-party API."
+    },
+    {
+        "path": "team-profile",
+        "title": "Team Profile",
+        "backgroundImage": "teamgenerator.jpg",
+        "demo": "TeamGenerator.png",
+        "blurb": " A little something about the project",
+        "skills": [
+            "Javascript",
+            "Node.js",
+            "Inquire npm"
+        ],
+        "links": {
+            "deployed": "https://alicewestcreate.github.io/team-profile-generator/",
+            "repo": "https://github.com/alicewestcreate/team-profile-generator.git"
+        },
+        "summary": "The website appears to be a team profile generator built using Node.js and the Inquirer.js library. The purpose of the tool is to help generate profiles for team members, including information such as their name, role, ID, email address, and GitHub username. The main page of the website includes a form where users can input this information for each team member, as well as select their role from a dropdown menu. Once all the necessary information has been entered, users can click a button to generate a HTML file with the team's profiles. From a technical standpoint, the website appears to be well-organized and cleanly structured. The code is clearly commented and easy to follow, and it's clear that the developer has taken care to optimize the application's functionality and performance. Additionally, the Inquirer.js library is a popular and well-regarded tool for creating command-line interfaces, and it appears to be well-integrated with the rest of the application. Overall, the team profile generator appears to be a useful and well-executed tool for creating team profiles quickly and easily. As a web developer, I would recommend it to anyone looking for a simple and effective solution for generating profiles for their team members."
+    },
+    {
+        "path": "book-store",
+        "title": "Book Store",
+        "backgroundImage": "bookstore.jpg",
+        "demo": "poolposition.gif",
+        "blurb": " A little something about the project",
+        "skills": [
+            "Python",
+            "OOP",
+            "Datafile"
+        ],
+        "links": {
+            "deployed": "",
+            "repo": ""
+        },
+        "summary": "The website appears to be a team profile generator built using Node.js and the Inquirer.js library. The purpose of the tool is to help generate profiles for team members, including information such as their name, role, ID, email address, and GitHub username. The main page of the website includes a form where users can input this information for each team member, as well as select their role from a dropdown menu. Once all the necessary information has been entered, users can click a button to generate a HTML file with the team's profiles. From a technical standpoint, the website appears to be well-organized and cleanly structured. The code is clearly commented and easy to follow, and it's clear that the developer has taken care to optimize the application's functionality and performance. Additionally, the Inquirer.js library is a popular and well-regarded tool for creating command-line interfaces, and it appears to be well-integrated with the rest of the application. Overall, the team profile generator appears to be a useful and well-executed tool for creating team profiles quickly and easily. As a web developer, I would recommend it to anyone looking for a simple and effective solution for generating profiles for their team members."
+    },
+    {
+        "path": "task-manager",
+        "title": "Task Manager",
+        "backgroundImage": "tasks.jpg",
+        "demo": "poolposition.gif",
+        "blurb": " A little something about the project",
+        "skills": [
+            "Python",
+            "OOP",
+            "Datafile"
+        ],
+        "links": {
+            "deployed": "",
+            "repo": ""
+        }, 
+        "summary": "The website appears to be a team profile generator built using Node.js and the Inquirer.js library. The purpose of the tool is to help generate profiles for team members, including information such as their name, role, ID, email address, and GitHub username. The main page of the website includes a form where users can input this information for each team member, as well as select their role from a dropdown menu. Once all the necessary information has been entered, users can click a button to generate a HTML file with the team's profiles. From a technical standpoint, the website appears to be well-organized and cleanly structured. The code is clearly commented and easy to follow, and it's clear that the developer has taken care to optimize the application's functionality and performance. Additionally, the Inquirer.js library is a popular and well-regarded tool for creating command-line interfaces, and it appears to be well-integrated with the rest of the application. Overall, the team profile generator appears to be a useful and well-executed tool for creating team profiles quickly and easily. As a web developer, I would recommend it to anyone looking for a simple and effective solution for generating profiles for their team members."
+
+    }
+]

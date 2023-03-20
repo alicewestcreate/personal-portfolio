@@ -4,13 +4,10 @@ import { NavLink } from "react-router-dom";
 import projectJSON from "./test-data.json";
 import "./pages.css"
 
-
-
-
-
 const PortfolioNav = () => {
 
   const [images, setImages] = useState([]);
+
   // This variable returns an array of all the image paths from in the JSON file. 
   const imagePaths = projectJSON.map((project) => {
     return project.backgroundImage;
@@ -34,8 +31,9 @@ const PortfolioNav = () => {
 
 
   // To create each section/compentent, assign the project properties to each section. 
-  // Then using the index count from the map, get the images array, and count through 
+  // Then using the index count from the map, get the images array (declared above), and count through 
   // each item in the array to get the corrosponding URL
+  
   const NavLinkContainer = projectJSON.map((project, index) => {
     return <section className="project" style={{backgroundImage: `url(${images[index]})`}}>
       <NavLink to={project.path} className={({ isActive, isPending }) =>

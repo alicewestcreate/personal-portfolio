@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Button from "../Components/Button";
 import profile from "./images/profile.jpg";
-import projectJSON from "./test-data.json";
+import projectJSON from "./project-data.json";
 import "./pages.css";
 import "../Components/Compenents.css";
 

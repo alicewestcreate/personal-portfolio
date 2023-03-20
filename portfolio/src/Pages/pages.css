@@ -10,9 +10,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 10vh;
-
-
-  }
+}
 
 #welcome .imgcontainer {
     margin: 60px;
@@ -20,27 +18,23 @@
     max-width: 25em;
     /* width: 40vw; */
     border-radius: 50%;
-    overflow:auto;
+    overflow: auto;
     border: var(--dark) solid 2px;
     box-shadow: #fff 4px 4px 0 0, var(--dark) 4px 4px 0 2px;
-
-  }
+}
 
 #welcome .textcontainer {
     margin-top: 40px;
     font-size: 300%;
-
-
 }
 
-.textcontainer > .buttonContainer  {
+.textcontainer>.buttonContainer {
     padding: 50px;
 }
 
 
 #project-container {
     height: 200vh;
-
 }
 
 .project {
@@ -52,27 +46,37 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-blend-mode: multiply;   
+    background-blend-mode: multiply;
 }
 
 .project:hover {
     animation-name: expand;
     animation-duration: 1s;
-    animation-fill-mode:forwards;
+    animation-fill-mode: forwards;
 }
 
 
-.project h2{
+.project h2 {
     font-size: 200%;
     color: var(--white)
-    /* text-shadow: 3px 3px rgba(0, 0, 0, 0.3) */
+        /* text-shadow: 3px 3px rgba(0, 0, 0, 0.3) */
 
 
 }
-@keyframes expand{
-    from {flex-grow: 1; background-color: grey; font-size: 100%;} 
-    to {flex-grow: 2; background-color: white; font-size:200%}
-  }
+
+@keyframes expand {
+    from {
+        flex-grow: 1;
+        background-color: grey;
+        font-size: 100%;
+    }
+
+    to {
+        flex-grow: 2;
+        background-color: white;
+        font-size: 200%
+    }
+}
 
 
 
@@ -81,22 +85,27 @@
 
 }
 
-.project-main > * {
+.project-main>* {
     padding-bottom: 30px;
 }
 
 .project-main h1 {
     font-size: 400%;
-    padding-bottom:2rem ;
+    padding-bottom: 2rem;
     margin: 3rem 0 2rem 0;
-    position:relative;
-    top:-20rem;
+    position: relative;
+    top: -20rem;
     animation: slide 1s ease-in-out 0.2s 1 normal forwards;
 }
 
 @keyframes slide {
-    from{top:-20rem;}
-    to {top: 0;}
+    from {
+        top: -20rem;
+    }
+
+    to {
+        top: 0;
+    }
 }
 
 
@@ -118,11 +127,11 @@
 
 
 #Contact h1 {
-    align-self:center;
+    align-self: center;
     font-size: 400%;
-    padding-bottom:2rem ;
+    padding-bottom: 2rem;
     margin: 3rem 0 2rem 0;
-    text-shadow: 4px 4px 0px var(--white), #000 4px 4px 1px ;
+    text-shadow: 4px 4px 0px var(--white), #000 4px 4px 1px;
     /* box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px; */
 
 
@@ -143,24 +152,28 @@ form {
 }
 
 form {
-    box-shadow: #fff 7px 7px 0 0,#000 7px 7px 0 1px;
+    box-shadow: #fff 7px 7px 0 0, #000 7px 7px 0 1px;
 }
 
-form, form > * {
+form,
+form>* {
     border-radius: 4px;
 }
 
-input, textarea {
+input,
+textarea {
     margin-top: 20px;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
     outline: none;
     border: var(--dark) solid 3px;
-  }
+}
 
 
-#fname, #email {
+#fname,
+#email {
     height: 30px;
 }
 
@@ -185,8 +198,8 @@ input:focus, textarea:focus {
     width: 80vw;
 }
 
-.socials > a > i::before {
-    display:flex;
+.socials>a>i::before {
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--white);
@@ -198,19 +211,18 @@ input:focus, textarea:focus {
 
 @media screen and (min-width: 768px) {
     .colView {
-      display: block;
-      column-count: 2;
-      column-gap: 50px;
+        display: block;
+        column-count: 2;
+        column-gap: 50px;
     }
 
     .project-main {
         padding: 2rem 20vw;
-    
+
     }
 
     #welcome .container {
         flex-direction: row;
-  
-  }
+
+    }
 }
-  

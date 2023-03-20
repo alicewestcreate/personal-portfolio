@@ -7,5 +7,4 @@ const Button = ({classN, text}) => {
         </button>
     );
 }
-
 export default Button;
