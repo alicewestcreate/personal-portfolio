@@ -13,7 +13,9 @@ const Project = ({ setPortfolioNav, displayPortfolioNav, project }) => {
       console.log(displayPortfolioNav);
       setPortfolioNav(false);
     };
-  }, );
+  }, 
+   // eslint-disable-next-line react-hooks/exhaustive-deps
+  [] );
 
   return (
     <div>

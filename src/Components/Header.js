@@ -9,7 +9,9 @@ const Header = (props) => {
       setImage(image.default);
     }
     loadImage();
-  },);
+  },
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  []);
 
   return (
     <div className="hero" style={{ backgroundImage: `url(${image})` }}></div>
