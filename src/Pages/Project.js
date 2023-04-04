@@ -13,7 +13,7 @@ const Project = ({ setPortfolioNav, displayPortfolioNav, project }) => {
       console.log(displayPortfolioNav);
       setPortfolioNav(false);
     };
-  }, []);
+  }, [displayPortfolioNav, setPortfolioNav]);
 
   return (
     <div>

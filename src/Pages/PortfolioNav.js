@@ -27,7 +27,7 @@ const PortfolioNav = () => {
       setImages(imageUrls)
     }
     loadImages()
-  },[])
+  },[images, setImages])
 
 
   // To create each section/compentent, assign the project properties to each section. 

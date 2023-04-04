@@ -7,15 +7,14 @@ const ImageContainer = (props) => {
   useEffect(() => {
     async function loadImage() {
       const image = await import(`../Pages/images/${props.image}`);
-      console.log("LOG.>>", image);
       setImage(image.default);
     }
     loadImage();
-  }, []);
+  }, [image, setImage]);
 
   return (
     <div>
-      <img src={image} alt="React Image" />
+      <img src={image} alt="dectrotive" />
     </div>
   );
 };

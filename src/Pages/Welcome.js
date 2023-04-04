@@ -13,7 +13,7 @@ const Welcome = () => {
     <section id="welcome">
       <div className="container">
         <div className="imgcontainer">
-          <img src={profile}></img>
+          <img src={profile} alt={"Profile of Author"}></img>
         </div>
         <div className="textcontainer">
           <h1>Hi, I'm Alice</h1>
