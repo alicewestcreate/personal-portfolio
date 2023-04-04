@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.30119bd5.css",
+    "main.js": "/static/js/main.f62adc12.js",
+    "static/js/497.85fd7fdd.chunk.js": "/static/js/497.85fd7fdd.chunk.js",
+    "static/js/6.99d7e0ab.chunk.js": "/static/js/6.99d7e0ab.chunk.js",
+    "static/js/832.2eaab6b0.chunk.js": "/static/js/832.2eaab6b0.chunk.js",
+    "static/js/201.f1d78c2a.chunk.js": "/static/js/201.f1d78c2a.chunk.js",
+    "static/js/822.fd8f3101.chunk.js": "/static/js/822.fd8f3101.chunk.js",
+    "static/js/939.9020bcaa.chunk.js": "/static/js/939.9020bcaa.chunk.js",
+    "static/js/245.c4d902b9.chunk.js": "/static/js/245.c4d902b9.chunk.js",
+    "static/js/372.f3cefaa2.chunk.js": "/static/js/372.f3cefaa2.chunk.js",
+    "static/js/187.8202c0fa.chunk.js": "/static/js/187.8202c0fa.chunk.js",
+    "static/js/571.2e5c5f54.chunk.js": "/static/js/571.2e5c5f54.chunk.js",
+    "static/js/626.c61fdf98.chunk.js": "/static/js/626.c61fdf98.chunk.js",
+    "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
+    "static/media/poolposition.gif": "/static/media/poolposition.f6024861963b4247fc73.gif",
+    "static/media/teamgenerator.jpg": "/static/media/teamgenerator.6738fa8a25073171c89e.jpg",
+    "static/media/WorkDayScheduler.gif": "/static/media/WorkDayScheduler.bdee555160f7e1c4a1e1.gif",
+    "static/media/bookstore.jpg": "/static/media/bookstore.67ca4e4664f85c9c7652.jpg",
+    "static/media/weather.jpg": "/static/media/weather.ff96e46e5e25b9e9307f.jpg",
+    "static/media/WeatherDashboard.gif": "/static/media/WeatherDashboard.6274d2a06365d921da37.gif",
+    "static/media/profile.jpg": "/static/media/profile.3444aaca00b13e363ecf.jpg",
+    "static/media/wildswimming.jpg": "/static/media/wildswimming.3215568c5450c41fcb89.jpg",
+    "static/media/dayplanner.jpg": "/static/media/dayplanner.f9038a93c8d1da8aa9a6.jpg",
+    "static/media/taskmanager.jpg": "/static/media/taskmanager.d028b9aacc270286920a.jpg",
+    "static/media/tasks.jpg": "/static/media/tasks.19efe737a8fa49a7b661.jpg",
+    "static/media/TeamGenerator.png": "/static/media/TeamGenerator.356423199c5e8a975242.png",
+    "static/media/AliceWest-DeveloperCV.pdf": "/static/media/AliceWest-DeveloperCV.f109b0ed08d5639029ea.pdf",
+    "index.html": "/index.html",
+    "main.30119bd5.css.map": "/static/css/main.30119bd5.css.map",
+    "main.f62adc12.js.map": "/static/js/main.f62adc12.js.map",
+    "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30119bd5.css",
+    "static/js/main.f62adc12.js"
+  ]
+}

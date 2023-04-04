@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpersonal_portfolio=self.webpackChunkpersonal_portfolio||[]).push([[201],{201:function(o,e,p){o.exports=p.p+"static/media/bookstore.67ca4e4664f85c9c7652.jpg"}}]);

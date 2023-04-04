@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpersonal_portfolio=self.webpackChunkpersonal_portfolio||[]).push([[245],{245:function(a,e,o){a.exports=o.p+"static/media/taskmanager.d028b9aacc270286920a.jpg"}}]);

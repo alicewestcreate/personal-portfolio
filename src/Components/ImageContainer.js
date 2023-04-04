@@ -10,7 +10,9 @@ const ImageContainer = (props) => {
       setImage(image.default);
     }
     loadImage();
-  }, []);
+  },
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  []);
 
   return (
     <div>

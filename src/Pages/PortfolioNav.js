@@ -27,7 +27,9 @@ const PortfolioNav = () => {
       setImages(imageUrls)
     }
     loadImages()
-  },[images, setImages])
+  },
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  [])
 
 
   // To create each section/compentent, assign the project properties to each section. 
