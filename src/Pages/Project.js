@@ -23,7 +23,7 @@ const Project = ({ setPortfolioNav, displayPortfolioNav, project }) => {
         <Paragraph content={project.blurb}></Paragraph>
         <ImageContainer content={"demo"} image={project.demo}></ImageContainer>
         <SkillContainer skills={project.skills}></SkillContainer>
-        <div class="buttonContainer">
+        <div className="buttonContainer">
           <a href={project.links.deployed} target={"blank"}>
             <Button
               classN={"project-buttons"}

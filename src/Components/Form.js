@@ -15,7 +15,7 @@ const Form = () => {
 
   return (
     <form>
-      <label for="fname" />
+      <label htmlFor="fname" />
       <input
         type="text"
         id="fname"
@@ -23,7 +23,7 @@ const Form = () => {
         placeholder="Your Name"
         onChange={handleInputChange}
       ></input>
-      <label for="email" />
+      <label htmlFor="email" />
       <input
         type="email"
         id="email"
@@ -31,7 +31,7 @@ const Form = () => {
         placeholder="Email"
         onChange={handleInputChange}
       ></input>
-      <label for="message" />
+      <label htmlFor="message" />
       <textarea
         type="text"
         id="message"
@@ -42,7 +42,7 @@ const Form = () => {
       <button
         type="button"
         id="contactSubmit"
-        class="project-buttons"
+        className="project-buttons"
         onClick={saveForm}
       >
         Save

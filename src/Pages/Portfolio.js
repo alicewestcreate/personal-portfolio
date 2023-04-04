@@ -18,8 +18,8 @@ const Portfolio = () => {
 
     const [displayPortfolioNav, setPortfolioNav] = useState(false);
 
-    const internalRoute = projectJSON.map((project)=> {
-        return <Route path={project.path} element={<Project setPortfolioNav={setPortfolioNav} displayPortfolioNav={displayPortfolioNav} project={project}/>}/>
+    const internalRoute = projectJSON.map((project, index)=> {
+        return <Route path={project.path}  key={index} element={<Project setPortfolioNav={setPortfolioNav} displayPortfolioNav={displayPortfolioNav} project={project}/>}/>
     })
 
     return (

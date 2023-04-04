@@ -35,7 +35,7 @@ const PortfolioNav = () => {
   // each item in the array to get the corrosponding URL
   
   const NavLinkContainer = projectJSON.map((project, index) => {
-    return <section className="project" style={{backgroundImage: `url(${images[index]})`}}>
+    return <section className="project"  key={index} style={{backgroundImage: `url(${images[index]})`}}>
       <NavLink to={project.path} className={({ isActive, isPending }) =>
     isPending ? "pending" : isActive ? "active" : ""}
     ><h2>{" "}{project.title}{" "}</h2></NavLink></section>

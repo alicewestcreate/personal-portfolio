@@ -11,14 +11,14 @@ const Welcome = () => {
 
   return (
     <section id="welcome">
-      <div class="container">
-        <div class="imgcontainer">
+      <div className="container">
+        <div className="imgcontainer">
           <img src={profile}></img>
         </div>
-        <div class="textcontainer">
+        <div className="textcontainer">
           <h1>Hi, I'm Alice</h1>
           <h3>Front End Developer</h3>
-          <div class="buttonContainer">
+          <div className="buttonContainer">
             <Link to="/portfolio">
               <Button
                 classN={"project-buttons"}
