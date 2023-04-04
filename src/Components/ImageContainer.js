@@ -10,7 +10,7 @@ const ImageContainer = (props) => {
       setImage(image.default);
     }
     loadImage();
-  }, []);
+  },);
 
   return (
     <div>

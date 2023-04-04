@@ -9,7 +9,7 @@ const Header = (props) => {
       setImage(image.default);
     }
     loadImage();
-  }, []);
+  },);
 
   return (
     <div className="hero" style={{ backgroundImage: `url(${image})` }}></div>
