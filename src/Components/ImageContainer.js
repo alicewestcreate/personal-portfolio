@@ -6,7 +6,7 @@ const ImageContainer = (props) => {
 
   useEffect(() => {
     async function loadImage() {
-      const image = await import(`../Pages/images/${props.image}`);
+      const image = await import(`../Components/images/${props.image}`);
       setImage(image.default);
     }
     loadImage();

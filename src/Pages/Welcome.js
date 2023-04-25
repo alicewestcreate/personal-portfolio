@@ -4,8 +4,6 @@ import "../Components/Compenents.css";
 import HeroWelcomePage from "../Components/HeroWelcomePage/HeroWelcomePage";
 import InfoWelcomePage from "../Components/InfoWelcomePage/InfoWelcomePage";
 
-import "./styleHomePage.css";
-
 const Welcome = () => {
   return (
     <>

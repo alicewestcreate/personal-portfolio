@@ -1,7 +1,7 @@
 import React from "react";
 import Form from "../Components/Form";
 import Title from "../Components/Title";
-import pdf from "./images/AliceWest-DeveloperCV.pdf";
+import pdf from "../Components/images/AliceWest-DeveloperCV.pdf";
 const Contact = () => {
   return (
     <section id="Contact">

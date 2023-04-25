@@ -1,37 +1,14 @@
-#welcome {
-    background-color: var(--light);
-    min-height: 100vh;
-    height: auto;
 
+.hero {
+    height: 30vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-#welcome .container {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10vh;
-}
-
-#welcome .imgcontainer {
-    margin: 60px;
-    min-width: 5em;
-    max-width: 25em;
-    /* width: 40vw; */
-    border-radius: 50%;
-    overflow: auto;
-    border: var(--dark) solid 2px;
-    box-shadow: #fff 4px 4px 0 0, var(--dark) 4px 4px 0 2px;
-}
-
-#welcome .textcontainer {
-    margin-top: 40px;
-    font-size: 300%;
-}
-
 .textcontainer>.buttonContainer {
     padding: 50px;
 }
-
 
 #project-container {
     height: 300vh;
@@ -46,7 +23,9 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-blend-mode: multiply;
+    background-color: var(--dark);
+    background-blend-mode: overlay;
+
 }
 
 .project:hover {
@@ -58,23 +37,24 @@
 
 .project h2 {
     font-size: 200%;
-    color: var(--white)
-        /* text-shadow: 3px 3px rgba(0, 0, 0, 0.3) */
-
-
+    color: var(--dark) ; 
+    background-color: var(--accent);
+    padding: 0 1rem;
 }
 
 @keyframes expand {
     from {
         flex-grow: 1;
-        background-color: grey;
+        background-color: var(--dark);
+        background-blend-mode: overlay;
         font-size: 100%;
     }
 
     to {
+        background-color: transparent;
+        background-blend-mode: none;
         flex-grow: 1.5;
-        background-color: white;
-        font-size: 200%
+        
     }
 }
 
@@ -86,28 +66,21 @@
 }
 
 .project-main>* {
-    padding-bottom: 30px;
+    margin: 1rem 0 ;
 }
 
 .project-main h1 {
-    font-size: 400%;
-    padding-bottom: 2rem;
-    margin: 3rem 0 2rem 0;
-    position: relative;
-    top: -20rem;
-    animation: slide 1s ease-in-out 0.2s 1 normal forwards;
+    display: inline;
+    font-size: 200%;
+    /* margin-bottom: -1rem; */
 }
 
-@keyframes slide {
-    from {
-        top: -20rem;
-    }
-
-    to {
-        top: 0;
-    }
+.project-main h1>span {
+    display: inline;
+    font-weight: 300;
+    font-size: 75%;
+    /* margin-bottom: -1rem; */
 }
-
 
 
 
@@ -120,18 +93,19 @@
 
 #Contact {
     padding: 50px 0;
-    background-color: var(--light);
+    background-color: var(--darkneutral);
     min-height: 100vh;
     height: auto;
 }
 
 
 #Contact h1 {
-    align-self: center;
-    font-size: 400%;
-    padding-bottom: 2rem;
-    margin: 3rem 0 2rem 0;
-    text-shadow: 4px 4px 0px var(--white), #000 4px 4px 1px;
+    align-self: start;
+    color: white;
+    /* font-size: 400%; */
+    background-color: var(--accent);
+    margin: 3rem 0 5rem 0;
+    /* text-shadow: 4px 4px 0px var(--accent), #000 4px 4px 1px; */
     /* box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px; */
 
 
@@ -148,16 +122,15 @@ form {
     padding: 20px;
     width: 80vw;
     max-width: 500px;
-    border: var(--dark) solid 1px;
+    border: var(--neutral) solid 1px;
 }
 
 form {
-    box-shadow: #fff 7px 7px 0 0, #000 7px 7px 0 1px;
+    box-shadow: var(--dark) 1rem 1rem 0 0;
 }
 
-form,
-form>* {
-    border-radius: 4px;
+input, textarea {
+    border: none;
 }
 
 input,
@@ -168,7 +141,9 @@ textarea {
 input:focus,
 textarea:focus {
     outline: none;
-    border: var(--dark) solid 3px;
+    border: none;
+    border-bottom: var(--accent) solid 2px;
+    border-right: var(--accent) solid 2px;
 }
 
 
@@ -202,11 +177,15 @@ textarea:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--white);
+    background-color: var(--dark);
     width: 45px;
     height: 45px;
     border-radius: 50px;
-    border: #fff solid 1px;
+
+}
+
+.socials>a:hover>i {
+    color: var(--accent);
 }
 
 @media screen and (min-width: 768px) {

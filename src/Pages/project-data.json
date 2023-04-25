@@ -1,10 +1,54 @@
 [
     {
+        "path": "bud",
+        "title": "Bud",
+        "backgroundImage": "shadyLeaves.webp",
+        "demo": "budDemo.gif",
+        "blurb": " — A dating app for plant",
+        "skills": [
+            "React",
+            "MUI",
+            "Data Manipulation",
+            "RESTful API’s"
+        ],
+        "links": {
+            "deployed": "",
+            "repo": ""
+        },
+        "summary" : {
+            "overview" : "Bud is a dating app for plants. Drawing inspiration from Tinder, users take a quiz which matches preferences with their ideal plants.",
+            
+            "features": [  
+                "User preferences collected through dynamic quiz" , 
+                "Filter results based on user preferences", 
+                "Store favourite plants in local storage", 
+                "Find nearest independent plant store to purchase plant"],
+
+            "design": [
+                "Uses RESTful API to get plant information", 
+                "Questions are dynamically displayed based on users selection",
+                "Question are loaded from JSON file",
+                "Responsive design for mobile and desktop devices",
+                "Clean and modern design overall",
+                "Questions dynamically updated from JSON file"],
+            
+            "challenges": "One of the challenges I faced was devising an efficient filtering process that would minimize the total number of loops required. To overcome this hurdle, I adopted a basic for loop that eliminated the need for an additional callback function. I then incorporated a for each loop, along with an if statement and includes method, to iterate through the selected preferences and compare them against the property values found in the object. This approach not only streamlined the filter process, but also eliminated the need for data type checks.",
+            "testing": "this is testing",
+            "results": " Bud is still in the early testing phase, however, it has received positive feedback as a unique concept and sassy style. ",
+            "future": [
+                "Add swipe left/right feature", 
+                "Add store to favourites feature",
+                "Connect to local independent plant shops",
+                "Source API with better imagery"]
+        }
+   
+    },
+    {
         "path": "pool-position",
         "title": "Pool Position",
         "backgroundImage": "wildswimming.jpg",
         "demo": "poolposition.gif",
-        "blurb": " A little something about the project",
+        "blurb": " — Wild swimming near you",
         "links": {
             "deployed": "https://codri5.github.io/pool-position/",
             "repo": "https://github.com/codri5/pool-position.git"
@@ -14,14 +58,39 @@
             "API",
             "Local Storage"
         ],
-        "summary": "Welcome to pool position, The site that connects you to wild swimming spots in Wales. It’s time to scrap the hand drawn maps, and forget the whispers you’ve heard of mysterious far away lands. Pool position, positions you, at your favourite wild swimming spot. Just type the name of the location into the search bar, and our places library and google directions api will direct you straight to the spot.  Or if you looking for a new adventure, just hit swim, at the top of the page to reveal all swimming spots. To make sure you adventure gets off on the right foot, weve even included the weather forecast to help you secure the sunshine. And for those rainy days, just hit the like button to keep them safe for when it’s time."
+        "summ": "Welcome to pool position, The site that connects you to wild swimming spots in Wales. It’s time to scrap the hand drawn maps, and forget the whispers you’ve heard of mysterious far away lands. Pool position, positions you, at your favourite wild swimming spot. Just type the name of the location into the search bar, and our places library and google directions api will direct you straight to the spot.  Or if you looking for a new adventure, just hit swim, at the top of the page to reveal all swimming spots. To make sure you adventure gets off on the right foot, weve even included the weather forecast to help you secure the sunshine. And for those rainy days, just hit the like button to keep them safe for when it’s time.",
+        "summary" : {
+            "overview" : "Bud is a dating app for plants. Drawing inspiration from Tinder, users take a quiz which matches preferences with their ideal plants.",
+            "features": [  
+                "User preferences collected through dynamic quiz" , 
+                "Filter results based on user preferences", 
+                "Store favourite plants in local storage", 
+                "Find nearest independent plant store to purchase plant"],
+
+            "design": [
+                "Uses RESTful API to get plant information", 
+                "Questions are dynamically displayed based on users selection",
+                "Question are loaded from JSON file",
+                "Responsive design for mobile and desktop devices",
+                "Clean and modern design overall",
+                "Questions dynamically updated from JSON file"],
+            
+            "challenges": "One of the challenges I faced was devising an efficient filtering process that would minimize the total number of loops required. To overcome this hurdle, I adopted a basic for loop that eliminated the need for an additional callback function. I then incorporated a for each loop, along with an if statement and includes method, to iterate through the selected preferences and compare them against the property values found in the object. This approach not only streamlined the filter process, but also eliminated the need for data type checks.",
+            "testing": "this is testing",
+            "results": " Bud is still in the early testing phase, however, it has received positive feedback as a unique concept and sassy style. ",
+            "future": [
+                "Add swipe left/right feature", 
+                "Add store to favourites feature",
+                "Connect to local independent plant shops",
+                "Source API with better imagery"]
+        }
     },
     {
         "path": "weather-app",
         "title": "Weather App",
         "backgroundImage": "weather.jpg",
         "demo": "WeatherDashboard.gif",
-        "blurb": "Weather dashboard application that allows users to search for and view weather information for different locations",
+        "blurb": "— Weather dashboard application that allows users to search for and view weather information for different locations",
         "skills": [
             "Javascript",
             "API",
@@ -31,7 +100,7 @@
             "deployed": "https://alicewestcreate.github.io/weather-dashboard/",
             "repo": "https://github.com/alicewestcreate/weather-dashboard.git"
         },
-        "summary": "Weather dashboard application that allows users to search for and view weather information for different locations. The homepage features a search bar where users can enter the name of a city or zip code to retrieve weather data. Upon searching, the page displays the current weather conditions for the location, including temperature, humidity, wind speed, and a five-day forecast. " },
+        "summ": "Weather dashboard application that allows users to search for and view weather information for different locations. The homepage features a search bar where users can enter the name of a city or zip code to retrieve weather data. Upon searching, the page displays the current weather conditions for the location, including temperature, humidity, wind speed, and a five-day forecast. " },
     {
         "path": "planner",
         "title": "Daily Planner",
@@ -47,7 +116,7 @@
             "deployed": "https://alicewestcreate.github.io/simple-calendar-third-party-API/",
             "repo": "https://github.com/alicewestcreate/simple-calendar-third-party-API.git"
         },
-        "summary": "A simple calendar application that utilizes a third-party API (Application Programming Interface) to display information. The homepage features a calendar with the current date highlighted and allows users to navigate between months. Clicking on a specific date opens a pop-up window that displays events for that day, which are likely obtained from the third-party API."
+        "summ": "A simple calendar application that utilizes a third-party API (Application Programming Interface) to display information. The homepage features a calendar with the current date highlighted and allows users to navigate between months. Clicking on a specific date opens a pop-up window that displays events for that day, which are likely obtained from the third-party API."
     },
     {
         "path": "team-profile",
@@ -64,24 +133,7 @@
             "deployed": "https://alicewestcreate.github.io/team-profile-generator/",
             "repo": "https://github.com/alicewestcreate/team-profile-generator.git"
         },
-        "summary": "The website appears to be a team profile generator built using Node.js and the Inquirer.js library. The purpose of the tool is to help generate profiles for team members, including information such as their name, role, ID, email address, and GitHub username. The main page of the website includes a form where users can input this information for each team member, as well as select their role from a dropdown menu. Once all the necessary information has been entered, users can click a button to generate a HTML file with the team's profiles. From a technical standpoint, the website appears to be well-organized and cleanly structured. The code is clearly commented and easy to follow, and it's clear that the developer has taken care to optimize the application's functionality and performance. Additionally, the Inquirer.js library is a popular and well-regarded tool for creating command-line interfaces, and it appears to be well-integrated with the rest of the application. Overall, the team profile generator appears to be a useful and well-executed tool for creating team profiles quickly and easily. As a web developer, I would recommend it to anyone looking for a simple and effective solution for generating profiles for their team members."
-    },
-    {
-        "path": "book-store",
-        "title": "Book Store",
-        "backgroundImage": "bookstore.jpg",
-        "demo": "poolposition.gif",
-        "blurb": " A little something about the project",
-        "skills": [
-            "Python",
-            "OOP",
-            "Datafile"
-        ],
-        "links": {
-            "deployed": "",
-            "repo": ""
-        },
-        "summary": "The website appears to be a team profile generator built using Node.js and the Inquirer.js library. The purpose of the tool is to help generate profiles for team members, including information such as their name, role, ID, email address, and GitHub username. The main page of the website includes a form where users can input this information for each team member, as well as select their role from a dropdown menu. Once all the necessary information has been entered, users can click a button to generate a HTML file with the team's profiles. From a technical standpoint, the website appears to be well-organized and cleanly structured. The code is clearly commented and easy to follow, and it's clear that the developer has taken care to optimize the application's functionality and performance. Additionally, the Inquirer.js library is a popular and well-regarded tool for creating command-line interfaces, and it appears to be well-integrated with the rest of the application. Overall, the team profile generator appears to be a useful and well-executed tool for creating team profiles quickly and easily. As a web developer, I would recommend it to anyone looking for a simple and effective solution for generating profiles for their team members."
+        "summ": "The website appears to be a team profile generator built using Node.js and the Inquirer.js library. The purpose of the tool is to help generate profiles for team members, including information such as their name, role, ID, email address, and GitHub username. The main page of the website includes a form where users can input this information for each team member, as well as select their role from a dropdown menu. Once all the necessary information has been entered, users can click a button to generate a HTML file with the team's profiles. From a technical standpoint, the website appears to be well-organized and cleanly structured. The code is clearly commented and easy to follow, and it's clear that the developer has taken care to optimize the application's functionality and performance. Additionally, the Inquirer.js library is a popular and well-regarded tool for creating command-line interfaces, and it appears to be well-integrated with the rest of the application. Overall, the team profile generator appears to be a useful and well-executed tool for creating team profiles quickly and easily. As a web developer, I would recommend it to anyone looking for a simple and effective solution for generating profiles for their team members."
     },
     {
         "path": "task-manager",
@@ -98,7 +150,7 @@
             "deployed": "",
             "repo": ""
         }, 
-        "summary": "The website appears to be a team profile generator built using Node.js and the Inquirer.js library. The purpose of the tool is to help generate profiles for team members, including information such as their name, role, ID, email address, and GitHub username. The main page of the website includes a form where users can input this information for each team member, as well as select their role from a dropdown menu. Once all the necessary information has been entered, users can click a button to generate a HTML file with the team's profiles. From a technical standpoint, the website appears to be well-organized and cleanly structured. The code is clearly commented and easy to follow, and it's clear that the developer has taken care to optimize the application's functionality and performance. Additionally, the Inquirer.js library is a popular and well-regarded tool for creating command-line interfaces, and it appears to be well-integrated with the rest of the application. Overall, the team profile generator appears to be a useful and well-executed tool for creating team profiles quickly and easily. As a web developer, I would recommend it to anyone looking for a simple and effective solution for generating profiles for their team members."
+        "summ": "The website appears to be a team profile generator built using Node.js and the Inquirer.js library. The purpose of the tool is to help generate profiles for team members, including information such as their name, role, ID, email address, and GitHub username. The main page of the website includes a form where users can input this information for each team member, as well as select their role from a dropdown menu. Once all the necessary information has been entered, users can click a button to generate a HTML file with the team's profiles. From a technical standpoint, the website appears to be well-organized and cleanly structured. The code is clearly commented and easy to follow, and it's clear that the developer has taken care to optimize the application's functionality and performance. Additionally, the Inquirer.js library is a popular and well-regarded tool for creating command-line interfaces, and it appears to be well-integrated with the rest of the application. Overall, the team profile generator appears to be a useful and well-executed tool for creating team profiles quickly and easily. As a web developer, I would recommend it to anyone looking for a simple and effective solution for generating profiles for their team members."
 
     }
 ]

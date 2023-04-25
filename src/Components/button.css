@@ -1,11 +1,10 @@
 .project-buttons {
   appearance: button;
-  background-color: var(--neutral);
+  background-color: var(--dark);
   border: var(--dark )1px solid;
-  border-radius: 4px;
-  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-shadow: var(--accent) 5px 5px 0 0;
   box-sizing: border-box;
-  color: var(--white);
+  color: var(--neutral);
   display: inline-block;
   margin: 0 5px 10px 0;
   padding: 12px 40px;
@@ -26,7 +25,7 @@
 }
 
 .project-buttons:not([disabled]):active {
-  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  box-shadow: var(--accent) 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
 
