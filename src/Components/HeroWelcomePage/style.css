@@ -66,6 +66,7 @@
 #heroTextWrapper p {
     width: 80%;
     height: auto;
+    font-size: 120%;
 }
 
 #heroTextWrapper p span {
@@ -90,7 +91,7 @@
     position: relative;
     width: 90%;
     padding-bottom: 130%;
-    background-image: url("../../Pages/images/profile.jpg");
+    background-image: url("../images/profile.jpg");
     background-size: cover;
     background-position: center;
 

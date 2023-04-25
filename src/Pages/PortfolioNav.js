@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect} from "react";
 import { NavLink } from "react-router-dom";
-import projectJSON from "./test-data.json";
+import projectJSON from "./project-data.json";
 import "./pages.css"
 
 const PortfolioNav = () => {
@@ -21,7 +21,7 @@ const PortfolioNav = () => {
     // Finally, call setImages, with all the imageURLs as an array.
 
     async function loadImages() {
-      const promises = imagePaths.map(eachPath => import(`./images/${eachPath}`))
+      const promises = imagePaths.map(eachPath => import(`../Components/images/${eachPath}`))
       const imageImports = await Promise.all(promises)
       const imageUrls = imageImports.map(image => image.default)
       setImages(imageUrls)
