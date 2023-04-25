@@ -11,14 +11,13 @@ const HeroWelcomePage = () => {
               I love bringing everything together - whether it's uniting
               designs, aligning brand values with actions, or building program
               harmony.
-              <span id="heroLine"></span>
+              <span></span>
             </p>
+            
            
           </div>
           <div id="heroImageContainer">
-            <div id="profileImage">
-              {/* <img id="profileImage" src={profile}></img> */}
-            </div>
+            <div><div id="profileImage"></div></div>
           </div>
         </div>
       </section>
