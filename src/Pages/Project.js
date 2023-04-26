@@ -3,7 +3,6 @@ import Header from "../Components/Header";
 import Button from "../Components/Button";
 import ImageContainer from "../Components/ImageContainer";
 import Title from "../Components/Title";
-import SkillContainer from "../Components/SkillContainer";
 import Footer from "../Components/Footer/Footer";
 import SummarySection from "../Components/SummarySection/SummarySection";
 
@@ -25,13 +24,11 @@ const Project = ({ setPortfolioNav, displayPortfolioNav, project }) => {
       <Header image={project.backgroundImage}></Header>
       <section className="project-main">
         <Title title={project.title} content={project.blurb}></Title>
-        {/* <Blurb content={project.blurb}></Blurb> */}
-        <SummarySection id={"overview"} title={"Overview"} content={project.summary.overview}></SummarySection>
+        <SummarySection className={"summary"} id={"overview"} title={"Overview"} content={project.summary.overview}></SummarySection>
 
-
-        {/* <Paragraph ></Paragraph> */}
         <ImageContainer content={"demo"} image={project.demo}></ImageContainer>
-        <SkillContainer skills={project.skills}></SkillContainer>
+        <SummarySection className={"summary"} id={"technology"} title={"Technologies"} content={project.summary.technology}></SummarySection>
+
         <div className="buttonContainer">
           <a href={project.links.deployed} target={"blank"}>
             <Button
@@ -48,12 +45,12 @@ const Project = ({ setPortfolioNav, displayPortfolioNav, project }) => {
             ></Button>
           </a>
         </div>
-        <SummarySection id={"features"} title={"Features and Functionality"} content={project.summary.features}></SummarySection>
-        <SummarySection id={"design"} title={"Design and Architecture"} content={project.summary.design}></SummarySection>
-        <SummarySection id={"challenage"} title={"Challenges and Solutions"} content={project.summary.challenges}></SummarySection>
+        <SummarySection className={"summary"} id={"features"} title={"Features and Functionality"} content={project.summary.features}></SummarySection>
+        <SummarySection className={"summary"} id={"design"} title={"Design and Architecture"} content={project.summary.design}></SummarySection>
+        <SummarySection className={"summary"} id={"challenage"} title={"Challenges and Solutions"} content={project.summary.challenges}></SummarySection>
         {/* <SummarySection id={"testing"} title={"Testing and Debugging"} content={project.summary.testing}></SummarySection> */}
-        <SummarySection id={"results"} title={"Results and Impact"} content={project.summary.results}></SummarySection>
-        <SummarySection id={"future"} title={"Future Improvements"} content={project.summary.future}></SummarySection>
+        <SummarySection className={"summary"} id={"results"} title={"Results and Impact"} content={project.summary.results}></SummarySection>
+        <SummarySection className={"summary"} id={"future"} title={"Future Improvements"} content={project.summary.future}></SummarySection>
         
       </section>
       <Footer></Footer>

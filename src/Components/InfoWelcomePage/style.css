@@ -18,7 +18,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 80vw;
-    max-width: 800px;
+    max-width: 1000px;
     height: 100%;
     align-items: stretch;
     justify-content: space-between;
@@ -27,7 +27,7 @@
 }
 
 #first .textWrapper div {
-    width: 35%;
+    width: 40%;
     height: fit-content;
     padding: 20px;
     padding-left: 40px;
@@ -68,8 +68,7 @@
 
 #second .text {
     width: 60%;
-    padding-right: 7rem;
-    margin-left: -3rem;
+    padding-left: 2rem;
 }
 
 
@@ -78,6 +77,13 @@
     color: white;
 
 }
+
+#second #textWrapper {
+    max-width: 700px;
+    /* padding-left: 100px; */
+}
+
+
 
 #second #textWrapper h2 {
     margin-bottom: 1rem;
@@ -124,6 +130,10 @@
         margin-left: 0;
     }
     
+    #second {
+        height: fit-content;
+        padding-bottom: 10rem;
+    }
 
 
 }

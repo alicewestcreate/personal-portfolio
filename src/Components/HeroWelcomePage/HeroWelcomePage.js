@@ -1,27 +1,27 @@
-import React from 'react';
-import "./style.css"
+import React from "react";
+import "./style.css";
 
 const HeroWelcomePage = () => {
-    return (
-        <section id="hero">
-        <div id="heroContentWrapper">
-          <div id="heroTextWrapper">
-            <h1>Frontend Developer</h1>
-            <p>
-              I love bringing everything together - whether it's uniting
-              designs, aligning brand values with actions, or building program
-              harmony.
-              <span></span>
-            </p>
-            
-           
-          </div>
-          <div id="heroImageContainer">
-            <div><div id="profileImage"></div></div>
+  return (
+    <section id="hero">
+      <div id="heroContentWrapper">
+        <div id="heroTextWrapper">
+          <h1>Frontend Developer</h1>
+          <p>
+          “I live for bringing different elements together, whether it's
+            connecting brand values to tangible actions, piecing together a
+            design, or developing programs that work seamlessly.” — Alice West 
+            <span></span>
+          </p>
+        </div>
+        <div id="heroImageContainer">
+          <div>
+            <div id="profileImage"></div>
           </div>
         </div>
-      </section>
-    );
-}
+      </div>
+    </section>
+  );
+};
 
 export default HeroWelcomePage;

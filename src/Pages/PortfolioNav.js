@@ -3,6 +3,7 @@ import { useState, useEffect} from "react";
 import { NavLink } from "react-router-dom";
 import projectJSON from "./project-data.json";
 import "./pages.css"
+import SummarySection from "../Components/SummarySection/SummarySection"
 
 const PortfolioNav = () => {
 
@@ -38,9 +39,13 @@ const PortfolioNav = () => {
   
   const NavLinkContainer = projectJSON.map((project, index) => {
     return <section className="project"  key={index} style={{backgroundImage: `url(${images[index]})`}}>
-      <NavLink to={project.path} className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? "active" : ""}
-    ><h2>{" "}{project.title}{" "}</h2></NavLink></section>
+      
+      <NavLink to={project.path} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""}>
+        <h2>{project.title}</h2></NavLink>
+        <SummarySection className={"summary"} id={"technology"} title={"Technologies"} content={project.summary.technology}></SummarySection>
+  
+    
+    </section>
   }) 
 
 
