@@ -134,16 +134,14 @@
             "design": [
                 "Uses Open Weather API",
                 "Utilises local storage for enhanced user experience",
-                "Generates information dynamically for increase load time"
+                "Generates information dynamically for optimised load time"
             ],
             "challenges": "Although it was my first time working with a third-party API, I didn't face any major challenges. To get started, I familiarised myself with the fetch method and learned how to traverse the API data object to extract the necessary information for displaying it in HTML content. Before beginning the programming process, I created a pseudo code to guide me through each step in a logical format, which made the process smoother and more organised.",
             "testing": "this is testing",
-            "results": "Overall, Pool Position was a great success, receiving positive feedback in design and concept, and as a team we accomplished a lot in a short amount of time. ",
+            "results": "A clean and contemporary dashboard design, and served as a great testing ground to get familiar with third-party API for the first time.",
             "future": [
                 "Reorient to a mobile-first design",
-                "Expand locations to cover the UK and beyond",
-                "Implement filter functionality to sort by swimming spot type",
-                "Incorporate a review rating system"
+                "Display recent photographs for each search"
             ]
         }    
     }

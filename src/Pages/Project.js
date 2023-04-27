@@ -11,7 +11,6 @@ const Project = ({ setPortfolioNav, displayPortfolioNav, project }) => {
     () => {
       setPortfolioNav(true);
       return () => {
-        console.log(displayPortfolioNav);
         setPortfolioNav(false);
       };
     },

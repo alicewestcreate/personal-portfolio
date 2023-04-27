@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
+import LazyLoad from "react-lazy-load";
 
 const Header = (props) => {
   const [image, setImage] = useState(null);
@@ -14,7 +15,9 @@ const Header = (props) => {
   []);
 
   return (
+    <LazyLoad>
     <div className="hero" style={{ backgroundImage: `url(${image})` }}></div>
+    </LazyLoad>
   );
 };
 

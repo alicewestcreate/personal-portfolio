@@ -35,14 +35,8 @@
     /* border: 1px red solid; */
 }
 
-
-#first .textWrapper div h2 {
+#first h2, #second h2 {
     margin-bottom: 1rem;
-}
-
-
-#first .textWrapper div p {
-    line-height: 150%
 }
 
 
@@ -80,15 +74,6 @@
 
 #second #textWrapper {
     max-width: 700px;
-    /* padding-left: 100px; */
-}
-
-
-
-#second #textWrapper h2 {
-    margin-bottom: 1rem;
-
-
 }
 
 
@@ -126,7 +111,7 @@
 
     #second .text {
         width: 80%;
-        padding-right: 0;
+        padding: 0;
         margin-left: 0;
     }
     
