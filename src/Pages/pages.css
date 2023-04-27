@@ -113,7 +113,7 @@
 
 #Contact {
     padding: 50px 0;
-    background-color: var(--darkneutral);
+    background-color: var(--neutral);
     min-height: 100vh;
     height: auto;
 }
@@ -141,11 +141,11 @@
 
 form {
     color: var(--dark);
-    background: var(--neutral);
+    background: var(--darkneutral);
     padding: 20px;
     width: 80vw;
     max-width: 500px;
-    border: var(--neutral) solid 1px;
+    border: var(--darkneutral) solid 1px;
 }
 
 form {
