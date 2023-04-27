@@ -26,7 +26,7 @@ const Project = ({ setPortfolioNav, displayPortfolioNav, project }) => {
         <Title title={project.title} content={project.blurb}></Title>
         <SummarySection className={"summary"} id={"overview"} title={"Overview"} content={project.summary.overview}></SummarySection>
 
-        <ImageContainer content={"demo"} image={project.demo}></ImageContainer>
+        <ImageContainer content={"demo"} alt={project.alt}image={project.demo}></ImageContainer>
         <SummarySection className={"summary"} id={"technology"} title={"Technologies"} content={project.summary.technology}></SummarySection>
 
         <div className="buttonContainer">
