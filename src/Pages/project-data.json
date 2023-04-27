@@ -4,12 +4,13 @@
         "title": "Bud",
         "backgroundImage": "shadyLeaves.webp",
         "demo": "budDemo.gif",
+        "alt": "Demo of bud application",
         "blurb": " — A dating app for plants",
         "skills": [
             "React",
             "MUI",
             "Data Manipulation",
-            "RESTful API’s"
+            "RESTful APIs"
         ],
         "links": {
             "deployed": "",
@@ -21,7 +22,7 @@
                 "React",
                 "MUI",
                 "Data Manipulation",
-                "RESTful API’s"
+                "RESTful APIs"
             ],
             "features": [
                 "User preferences collected through dynamic quiz",
@@ -53,6 +54,7 @@
         "title": "Pool Position",
         "backgroundImage": "wildswimming.jpg",
         "demo": "poolposition.gif",
+        "alt": "Demo of pool position application",
         "blurb": " — Wild swimming near you",
         "links": {
             "deployed": "https://codri5.github.io/pool-position/",
@@ -103,6 +105,7 @@
         "title": "Weather App",
         "backgroundImage": "weather.jpg",
         "demo": "WeatherDashboard.gif",
+        "alt": "Demo of weather dashboard application",
         "blurb": " — 5 day weather forcast for any city",
         "skills": [
             "Javascript",
@@ -143,158 +146,6 @@
                 "Incorporate a review rating system"
             ]
         }    
-    },
-    {
-        "path": "planner",
-        "title": "Daily Planner",
-        "backgroundImage": "dayplanner.jpg",
-        "demo": "WorkDayScheduler.gif",
-        "blurb": " A simple calendar application that utilizes a third-party API",
-        "skills": [
-            "Javascript",
-            "Local Storage",
-            "Mode"
-        ],
-        "links": {
-            "deployed": "https://alicewestcreate.github.io/simple-calendar-third-party-API/",
-            "repo": "https://github.com/alicewestcreate/simple-calendar-third-party-API.git"
-        },
-        "summ": "A simple calendar application that utilizes a third-party API (Application Programming Interface) to display information. The homepage features a calendar with the current date highlighted and allows users to navigate between months. Clicking on a specific date opens a pop-up window that displays events for that day, which are likely obtained from the third-party API.",
-        "summary": {
-            "overview": "Pool Position positions you at new favorite wild swimming spots in Wales. Just type in the area, and Google Places library will display the location, along with Google Directions API directing you straight to the spot.",
-            "technology": [
-                "Javascript",
-                "Google APIs",
-                "Local Storage",
-                "Node.js",
-                "Bootstrap"
-            ],
-            "features": [
-                "Search functionality, users can search via name or postcode",
-                "Map display, the website displays all swimming spots in the area",
-                "Get directions, easy link through to Google Maps",
-                "Information about each spot, top level information to make quick decision",
-                "Save favourites, users can save locations in their local storage"
-            ],
-            "design": [
-                "Uses Google Places and Google Direction API",
-                "Utlising local storage for enhanced user experience",
-                "Information cards are generated dynamically",
-                "Information about swimming spots is accessed through a JSON file",
-                "Cohesive design in a simple and clean layout "
-            ],
-            "challenges": "Pool Position was a group project that we worked on for two weeks. We faced some challenges along the way, but we overcame them by putting our faith in our individual strengths and committing to creating major features of the project.  I took a leap and improved my knowledge of Javascript by writing the logic for dynamically loading the information cards and enabling users to save their favorites in local storage. This was achieved using a single source of truth methodology, which ensured that the user experience was both seamless and efficient.",
-            "testing": "this is testing",
-            "results": "Overall, Pool Position was a great success, receiving positive feedback in design and concept, and as a team we accomplished a lot in a short amount of time. ",
-            "future": [
-                "Reorient to a mobile-first design",
-                "Expand locations to cover the UK and beyond",
-                "Implement filter functionality to sort by swimming spot type",
-                "Incorporate a review rating system"
-            ]
-        }
-
-    },
-    {
-        "path": "team-profile",
-        "title": "Team Profile",
-        "backgroundImage": "teamgenerator.jpg",
-        "demo": "TeamGenerator.png",
-        "blurb": " A little something about the project",
-        "skills": [
-            "Javascript",
-            "Node.js",
-            "Inquire npm"
-        ],
-        "links": {
-            "deployed": "https://alicewestcreate.github.io/team-profile-generator/",
-            "repo": "https://github.com/alicewestcreate/team-profile-generator.git"
-        },
-        "summ": "The website appears to be a team profile generator built using Node.js and the Inquirer.js library. The purpose of the tool is to help generate profiles for team members, including information such as their name, role, ID, email address, and GitHub username. The main page of the website includes a form where users can input this information for each team member, as well as select their role from a dropdown menu. Once all the necessary information has been entered, users can click a button to generate a HTML file with the team's profiles. From a technical standpoint, the website appears to be well-organized and cleanly structured. The code is clearly commented and easy to follow, and it's clear that the developer has taken care to optimize the application's functionality and performance. Additionally, the Inquirer.js library is a popular and well-regarded tool for creating command-line interfaces, and it appears to be well-integrated with the rest of the application. Overall, the team profile generator appears to be a useful and well-executed tool for creating team profiles quickly and easily. As a web developer, I would recommend it to anyone looking for a simple and effective solution for generating profiles for their team members.",
-        "summary": {
-            "overview": "Pool Position positions you at new favorite wild swimming spots in Wales. Just type in the area, and Google Places library will display the location, along with Google Directions API directing you straight to the spot.",
-            "technology": [
-                "Javascript",
-                "Google APIs",
-                "Local Storage",
-                "Node.js",
-                "Bootstrap"
-            ],
-            "features": [
-                "Search functionality, users can search via name or postcode",
-                "Map display, the website displays all swimming spots in the area",
-                "Get directions, easy link through to Google Maps",
-                "Information about each spot, top level information to make quick decision",
-                "Save favourites, users can save locations in their local storage"
-            ],
-            "design": [
-                "Uses Google Places and Google Direction API",
-                "Utlising local storage for enhanced user experience",
-                "Information cards are generated dynamically",
-                "Information about swimming spots is accessed through a JSON file",
-                "Cohesive design in a simple and clean layout "
-            ],
-            "challenges": "Pool Position was a group project that we worked on for two weeks. We faced some challenges along the way, but we overcame them by putting our faith in our individual strengths and committing to creating major features of the project.  I took a leap and improved my knowledge of Javascript by writing the logic for dynamically loading the information cards and enabling users to save their favorites in local storage. This was achieved using a single source of truth methodology, which ensured that the user experience was both seamless and efficient.",
-            "testing": "this is testing",
-            "results": "Overall, Pool Position was a great success, receiving positive feedback in design and concept, and as a team we accomplished a lot in a short amount of time. ",
-            "future": [
-                "Reorient to a mobile-first design",
-                "Expand locations to cover the UK and beyond",
-                "Implement filter functionality to sort by swimming spot type",
-                "Incorporate a review rating system"
-            ]
-        }
-    },
-    {
-        "path": "task-manager",
-        "title": "Task Manager",
-        "backgroundImage": "tasks.jpg",
-        "demo": "poolposition.gif",
-        "blurb": " A little something about the project",
-        "skills": [
-            "Python",
-            "OOP",
-            "Datafile"
-        ],
-        "links": {
-            "deployed": "",
-            "repo": ""
-        },
-        "summ": "The website appears to be a team profile generator built using Node.js and the Inquirer.js library. The purpose of the tool is to help generate profiles for team members, including information such as their name, role, ID, email address, and GitHub username. The main page of the website includes a form where users can input this information for each team member, as well as select their role from a dropdown menu. Once all the necessary information has been entered, users can click a button to generate a HTML file with the team's profiles. From a technical standpoint, the website appears to be well-organized and cleanly structured. The code is clearly commented and easy to follow, and it's clear that the developer has taken care to optimize the application's functionality and performance. Additionally, the Inquirer.js library is a popular and well-regarded tool for creating command-line interfaces, and it appears to be well-integrated with the rest of the application. Overall, the team profile generator appears to be a useful and well-executed tool for creating team profiles quickly and easily. As a web developer, I would recommend it to anyone looking for a simple and effective solution for generating profiles for their team members.",
-        "summary": {
-            "overview": "Pool Position positions you at new favorite wild swimming spots in Wales. Just type in the area, and Google Places library will display the location, along with Google Directions API directing you straight to the spot.",
-            "technology": [
-                "Javascript",
-                "Google APIs",
-                "Local Storage",
-                "Node.js",
-                "Bootstrap"
-            ],
-            "features": [
-                "Search functionality, users can search via name or postcode",
-                "Map display, the website displays all swimming spots in the area",
-                "Get directions, easy link through to Google Maps",
-                "Information about each spot, top level information to make quick decision",
-                "Save favourites, users can save locations in their local storage"
-            ],
-            "design": [
-                "Uses Google Places and Google Direction API",
-                "Utlising local storage for enhanced user experience",
-                "Information cards are generated dynamically",
-                "Information about swimming spots is accessed through a JSON file",
-                "Cohesive design in a simple and clean layout "
-            ],
-            "challenges": "Pool Position was a group project that we worked on for two weeks. We faced some challenges along the way, but we overcame them by putting our faith in our individual strengths and committing to creating major features of the project.  I took a leap and improved my knowledge of Javascript by writing the logic for dynamically loading the information cards and enabling users to save their favorites in local storage. This was achieved using a single source of truth methodology, which ensured that the user experience was both seamless and efficient.",
-            "testing": "this is testing",
-            "results": "Overall, Pool Position was a great success, receiving positive feedback in design and concept, and as a team we accomplished a lot in a short amount of time. ",
-            "future": [
-                "Reorient to a mobile-first design",
-                "Expand locations to cover the UK and beyond",
-                "Implement filter functionality to sort by swimming spot type",
-                "Incorporate a review rating system"
-            ]
-        }
-    
-    
     }
+
 ]

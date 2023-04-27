@@ -16,7 +16,7 @@ const ImageContainer = (props) => {
 
   return (
     <div>
-      <img src={image} alt="dectrotive" autoPlay/>
+      <img src={image} alt={props.alt} autoPlay/>
     </div>
   );
 };
