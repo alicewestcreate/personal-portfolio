@@ -1,5 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
+import LazyLoad from 'react-lazy-load';
+
 
 const ImageContainer = (props) => {
   const [image, setImage] = useState(null);
@@ -16,7 +18,9 @@ const ImageContainer = (props) => {
 
   return (
     <div>
+       <LazyLoad>
       <img src={image} alt={props.alt} autoPlay/>
+      </LazyLoad>
     </div>
   );
 };

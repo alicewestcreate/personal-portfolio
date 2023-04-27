@@ -79,14 +79,12 @@
 .project-main h1 {
     display: inline;
     font-size: 200%;
-    /* margin-bottom: -1rem; */
 }
 
 .project-main h1>span {
     display: inline;
     font-weight: 300;
     font-size: 75%;
-    /* margin-bottom: -1rem; */
 }
 
 
@@ -124,12 +122,6 @@
 #Contact h1 {
     align-self: start;
     color: var(--dark);
-    /* font-size: 400%; */
-
-    /* text-shadow: 4px 4px 0px var(--accent), #000 4px 4px 1px; */
-    /* box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px; */
-
-
 }
 
 .formContainer {
