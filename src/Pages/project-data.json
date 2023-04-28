@@ -13,8 +13,8 @@
             "RESTful APIs"
         ],
         "links": {
-            "deployed": "",
-            "repo": ""
+            "deployed": "https://budyourlife.netlify.app/",
+            "repo": "https://github.com/alicewestcreate/bud.git"
         },
         "summary": {
             "overview": "Bud is a dating app for plants. Drawing inspiration from Tinder, users take a quiz to find their ideal plant match based on their preferences.",
