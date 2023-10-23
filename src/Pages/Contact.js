@@ -7,7 +7,7 @@ const Contact = () => {
     <section id="Contact">
       <div className="formContainer">
         <div className="formCopy">
-          <Title title={"Say hello, "}></Title>
+          <Title title={"Say hello "}></Title>
           <p>
             {" "}
             Thanks for visiting my portfolio. I'm always looking to connect with
